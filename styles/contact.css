@@ -1,0 +1,107 @@
+/*DEVELOPER: Eunice Ojo, IS117-101, Fall 2022 */
+
+html {
+    background-color: lavender;
+}
+
+header h1 {
+    font-size: 400%;
+    color: darkslateblue;
+    margin-left: 2px;
+    font-family: monospace;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: monospace;
+
+}
+
+body {
+    background-color: lavender;
+    font-family: monospace;
+
+}
+
+header * {
+    display: inline;
+    font-family: monospace;
+
+}
+
+header li {
+    margin: 15px;
+    font-family: monospace;
+
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+    font-family: monospace;
+
+}
+
+main h2 {
+    color: darkslateblue;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.image {
+    flex-basis: 40%
+}
+
+.text {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: lavender;
+    padding: 20px;
+}
+

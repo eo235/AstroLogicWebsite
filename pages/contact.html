@@ -1,0 +1,60 @@
+<!-- DEVELOPER: Eunice Ojo, IS117-101, Fall 2022 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro Logic | Contact Page</title>
+    <link rel="shortcut icon" href="../images/wheel.jpg">
+    <link rel="stylesheet" href="../styles/contact.css">
+</head>
+<body>
+<header>
+    <h1>Astro Logic</h1>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="../index.html">Home Page</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../pages/natal.html">Natal Chart</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../pages/sun.html">Sun & Rising Signs</a></li>
+                <li><a class="dropdown-item" href="../pages/moon.html">Moon & Mercury Signs</a></li>
+                <li><a class="dropdown-item" href="../pages/venus.html">Venus & Mars Signs</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../pages/contact.html">Contact Page</a>
+        </li>
+    </ul>
+</header>
+<main>
+    <section>
+        <h2>Contact Page</h2>
+        <div class="container">
+            <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="First name">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Last name">
+
+                <label for="subject">Email</label>
+                <textarea id="subject" name="subject" placeholder="Enter email" style="height:50px"></textarea>
+                <label for="checkbox">Subscribe</label>
+                    <input type="checkbox" id="checkbox">
+                </label>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+
+        <!-- Javascript Bundle with Popper -->
+    </section>
+</main>
+<footer>
+    <p>&copy; Eunice Ojo, 2022 | Terms of Use | Privacy Statement</p>
+</footer>
+</body>
+</html>

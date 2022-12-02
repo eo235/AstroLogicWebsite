@@ -1,0 +1,76 @@
+/*DEVELOPER: Eunice Ojo, IS117-101, Fall 2022 */
+
+header h1 {
+    font-size: 400%;
+    color: darkslateblue;
+    margin-left: 2px;
+    font-family: monospace;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: 1px;
+    font-family: monospace;
+
+}
+
+html {
+    background-color: lavender;
+}
+body {
+    background-color: lavender;
+    font-family: monospace;
+
+}
+
+header * {
+    display: inline;
+    font-family: monospace;
+
+}
+
+header li {
+    margin: 15px;
+    font-family: monospace;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+main h2 {
+    color: darkslateblue;
+}
+
+p {
+    font-size: 20px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+main h4 {
+    color: darkslateblue;
+    font-size: 15px;
+}
